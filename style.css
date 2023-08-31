@@ -57,6 +57,7 @@ body {
   flex-direction: row-reverse;
   align-items: center;
   padding: 10px;
+  box-sizing: border-box;
 }
 .caffee_menu_image {
   width: 20%;
