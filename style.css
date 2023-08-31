@@ -19,6 +19,7 @@ body {
 }
 .menu_section {
   background: url("./images/sample_menu_bg.jpg") no-repeat bottom;
+  background-size: 100%;
   background-attachment: fixed;
 }
 .menu_title {
