@@ -64,7 +64,9 @@ function calc() {
   const sum = subtotal();
   const envio = calcEnvioFromPurchase(sum);
   window.alert(
-    `El subtotal es ${sum} Yenes, los gastos de envío son ${envio} Yenes. Total: ${
+    `${display()}\nEl subtotal es ${sum} Yenes.\n
+    Los gastos de envío son ${envio} Yenes.\n
+    Total: ${
       sum + envio
     } Yenes.`
   );
